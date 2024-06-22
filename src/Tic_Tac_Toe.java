@@ -154,7 +154,10 @@ public class Tic_Tac_Toe {
 			JOptionPane.showMessageDialog(frmTicTacToe, "Player O wins");
 			oCount1++;
 			oCount.setText(String.valueOf(oCount1));
-		} else if (i == 9) {
+		} 
+	
+		
+		else if (i == 9) {
 			JOptionPane.showMessageDialog(frmTicTacToe, "Game Draw!");
 			win = true;
 		}
@@ -190,10 +193,12 @@ public class Tic_Tac_Toe {
 				btn1.setText(startGame);
 				if (startGame.equalsIgnoreCase("X")) {
 					btn1.setForeground(Color.RED);
+					btn1.setEnabled(false);			
 					b1 = 1;
 					i++;
 				} else {
 					btn1.setForeground(Color.BLACK);
+					btn1.setEnabled(false);	
 					b1 = 0;
 					i++;
 				}
@@ -212,10 +217,12 @@ public class Tic_Tac_Toe {
 				btn2.setText(startGame);
 				if (startGame.equalsIgnoreCase("X")) {
 					btn2.setForeground(Color.RED);
+					btn2.setEnabled(false);	
 					b2 = 1;
 					i++;
 				} else {
 					btn2.setForeground(Color.BLACK);
+					btn2.setEnabled(false);	
 					b2 = 0;
 					i++;
 				}
@@ -234,10 +241,12 @@ public class Tic_Tac_Toe {
 				btn5.setText(startGame);
 				if (startGame.equalsIgnoreCase("X")) {
 					btn5.setForeground(Color.RED);
+					btn5.setEnabled(false);
 					b5 = 1;
 					i++;
 				} else {
 					btn5.setForeground(Color.BLACK);
+					btn5.setEnabled(false);
 					b5 = 0;
 					i++;
 				}
@@ -256,10 +265,12 @@ public class Tic_Tac_Toe {
 				btn4.setText(startGame);
 				if (startGame.equalsIgnoreCase("X")) {
 					btn4.setForeground(Color.RED);
+					btn4.setEnabled(false);
 					b4 = 1;
 					i++;
 				} else {
 					btn4.setForeground(Color.BLACK);
+					btn4.setEnabled(false);
 					b4 = 0;
 					i++;
 				}
@@ -278,10 +289,12 @@ public class Tic_Tac_Toe {
 				btn8.setText(startGame);
 				if (startGame.equalsIgnoreCase("X")) {
 					btn8.setForeground(Color.RED);
+					btn8.setEnabled(false);
 					b8 = 1;
 					i++;
 				} else {
 					btn8.setForeground(Color.BLACK);
+					btn8.setEnabled(false);
 					b8 = 0;
 					i++;
 				}
@@ -300,10 +313,12 @@ public class Tic_Tac_Toe {
 				btn7.setText(startGame);
 				if (startGame.equalsIgnoreCase("X")) {
 					btn7.setForeground(Color.RED);
+					btn7.setEnabled(false);
 					b7 = 1;
 					i++;
 				} else {
 					btn7.setForeground(Color.BLACK);
+					btn7.setEnabled(false);
 					b7 = 0;
 					i++;
 				}
@@ -322,10 +337,12 @@ public class Tic_Tac_Toe {
 				btn9.setText(startGame);
 				if (startGame.equalsIgnoreCase("X")) {
 					btn9.setForeground(Color.RED);
+					btn9.setEnabled(false);
 					b9 = 1;
 					i++;
 				} else {
 					btn9.setForeground(Color.BLACK);
+					btn9.setEnabled(false);
 					b9 = 0;
 					i++;
 				}
@@ -344,10 +361,12 @@ public class Tic_Tac_Toe {
 				btn6.setText(startGame);
 				if (startGame.equalsIgnoreCase("X")) {
 					btn6.setForeground(Color.RED);
+					btn6.setEnabled(false);
 					b6 = 1;
 					i++;
 				} else {
 					btn6.setForeground(Color.BLACK);
+					btn6.setEnabled(false);
 					b6 = 0;
 					i++;
 				}
@@ -366,10 +385,12 @@ public class Tic_Tac_Toe {
 				btn3.setText(startGame);
 				if (startGame.equalsIgnoreCase("X")) {
 					btn3.setForeground(Color.RED);
+					btn3.setEnabled(false);
 					b3 = 1;
 					i++;
 				} else {
 					btn3.setForeground(Color.BLACK);
+					btn3.setEnabled(false);
 					b3 = 0;
 					i++;
 				}
